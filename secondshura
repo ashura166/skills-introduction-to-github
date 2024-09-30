@@ -1,0 +1,10 @@
+Visual basic Select case code:
+Dim number As Integer
+        number = InputBox("Enter Number between 10 and 20")
+        If (number > 10) And (number < 20) Then
+            MsgBox("Valid number")
+        Else
+            MsgBox("Please enter number between 10 and 20")
+            TextBox1.Clear()
+        End If
+    End Sub
